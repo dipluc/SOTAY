@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Primary Teal Palette from Figma export -->
+    <color name="primary">#35B6C8</color>
+    <color name="primary_dark">#087887</color>
+    <color name="primary_light">#E8F7FA</color>
+    <color name="colorAccent">#35B6C8</color>
+
+    <color name="income_green">#087887</color>
+    <color name="income_green_bg">#E6F2EC</color>
+    <color name="expense_red">#C84949</color>
+    <color name="expense_red_bg">#FDECEC</color>
+    <color name="warning_orange">#D98B22</color>
+    <color name="warning_orange_bg">#FFF7ED</color>
+    <color name="budget_exceeded">#C84949</color>
+
+    <color name="window_background">#F5FAFC</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="text_primary">#17343B</color>
+    <color name="text_secondary">#607780</color>
+    <color name="text_hint">#9BB0B5</color>
+    <color name="divider_color">#D8EAEE</color>
+
+    <!-- Color codes from Figma export -->
+    <color name="color_8_120_135">#FF087887</color>
+    <color name="color_16_62_71">#FF103E47</color>
+    <color name="color_23_52_59">#FF17343B</color>
+    <color name="color_53_182_200">#FF35B6C8</color>
+    <color name="color_96_119_128">#FF607780</color>
+    <color name="color_200_73_73">#FFC84949</color>
+    <color name="color_216_234_238">#FFD8EAEE</color>
+    <color name="color_217_139_34">#FFD98B22</color>
+    <color name="color_230_242_236">#FFE6F2EC</color>
+    <color name="color_232_247_250">#FFE8F7FA</color>
+    <color name="color_243_209_200">#FFF3D1C8</color>
+    <color name="color_245_250_252">#FFF5FAFC</color>
+    <color name="color_253_236_236">#FFFDECEC</color>
+    <color name="color_254_215_170">#FFFED7AA</color>
+    <color name="color_255_240_238">#FFFFF0EE</color>
+    <color name="color_255_247_237">#FFFFF7ED</color>
+    <color name="color_255_247_247">#FFFFF7F7</color>
+
+    <color name="white_26">#26FFFFFF</color>
+    <color name="white_35">#35FFFFFF</color>
+    <color name="white_40">#40FFFFFF</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

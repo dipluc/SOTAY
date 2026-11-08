@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/bg_rounded_dialog_add_edit_category">
+
+    <ImageView
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:src="@drawable/ic_layout_grid_custom"
+        android:contentDescription="@null"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/txtDialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_category"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/category_name"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:layout_marginBottom="6dp" />
+
+    <EditText
+        android:id="@+id/edtCategoryName"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="@string/category_name"
+        android:paddingHorizontal="16dp"
+        android:background="@drawable/bg_input_field"
+        android:textSize="15sp"
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_secondary"
+        android:inputType="textCapSentences"
+        android:layout_marginBottom="16dp" />
+
+    <RadioGroup
+        android:id="@+id/rgCategoryType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <RadioButton
+            android:id="@+id/rbExpense"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="6dp"
+            android:background="@drawable/selector_radio_pill_bg"
+            android:button="@null"
+            android:drawableStart="@drawable/selector_radio_circle_icon"
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:paddingHorizontal="16dp"
+            android:text="@string/expense"
+            android:textColor="@color/selector_radio_pill_text"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/rbIncome"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:layout_marginStart="6dp"
+            android:background="@drawable/selector_radio_pill_bg"
+            android:button="@null"
+            android:drawableStart="@drawable/selector_radio_circle_icon"
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:paddingHorizontal="16dp"
+            android:text="@string/income"
+            android:textColor="@color/selector_radio_pill_text"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Biểu tượng"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="6dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@drawable/bg_input_field"
+        android:paddingHorizontal="16dp">
+
+        <TextView
+            android:id="@+id/txtSelectedIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|start"
+            android:text="Trái tim"
+            android:textColor="@color/text_primary"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical|end"
+            android:src="@drawable/ic_chevron_down_custom"
+            android:contentDescription="@null" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="24dp">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="6dp"
+            android:text="@string/cancel"
+            android:textColor="@color/primary_dark"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:background="@drawable/bg_rounded_btncancel"
+            android:stateListAnimator="@null" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:layout_marginStart="6dp"
+            android:text="@string/save"
+            android:textColor="@color/color_16_62_71"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:background="@drawable/bg_button_primary"
+            android:stateListAnimator="@null" />
+    </LinearLayout>
+
+</LinearLayout>

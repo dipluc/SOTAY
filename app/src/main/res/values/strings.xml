@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="stat_periods">
+        <item>Tháng</item>
+        <item>Ngày</item>
+        <item>Năm</item>
+    </string-array>
+    <string name="app_name">Sổ Tay Chi Tiêu</string>
+    <string name="login">Đăng nhập</string>
+    <string name="register">Đăng ký</string>
+    <string name="username">Tên đăng nhập</string>
+    <string name="password">Mật khẩu</string>
+    <string name="confirm_password">Xác nhận mật khẩu</string>
+    <string name="full_name">Họ và tên</string>
+    <string name="old_password">Mật khẩu cũ</string>
+    <string name="new_password">Mật khẩu mới</string>
+    <string name="no_account">Chưa có tài khoản? Đăng ký ngay</string>
+    <string name="has_account">Đã có tài khoản? Đăng nhập</string>
+
+    <string name="main_title">Sổ Tay Chi Tiêu Ca Nhân</string>
+    <string name="greeting">Xin chào,</string>
+    <string name="total_balance">Số dư hiện tại</string>
+    <string name="total_income">Tổng thu</string>
+    <string name="total_expense">Tổng chi</string>
+    <string name="recent_transactions">Giao dịch tháng này</string>
+    <string name="search_hint">Tìm giao dịch...</string>
+    <string name="empty_transactions">Nhấn dấu + để thêm khoản thu hoặc chi đầu tiên trong tháng.</string>
+
+    <string name="add_transaction">Thêm giao dịch</string>
+    <string name="edit_transaction">Sửa giao dịch</string>
+    <string name="transaction_type">Loại giao dịch</string>
+    <string name="expense">Chi tiêu</string>
+    <string name="income">Thu nhập</string>
+    <string name="category">Danh mục</string>
+    <string name="amount">Số tiền (VNĐ)</string>
+    <string name="note">Ghi chú</string>
+    <string name="date">Ngày thực hiện</string>
+    <string name="attach_image">Đính kèm hóa đơn</string>
+    <string name="change_image">Đổi ảnh</string>
+    <string name="remove_image">Xóa ảnh</string>
+    <string name="no_image">Chưa có ảnh hóa đơn</string>
+
+    <string name="manage_categories">Danh mục</string>
+    <string name="add_category">Thêm danh mục</string>
+    <string name="edit_category">Sửa danh mục</string>
+    <string name="category_name">Tên danh mục</string>
+    <string name="select_icon">Chọn biểu tượng</string>
+
+    <string name="statistics">Thống kê</string>
+    <string name="statistics_title">Báo cáo thu chi</string>
+    <string name="monthly_budget">Hạn mức ngân sách tháng</string>
+    <string name="set_budget">Thiết lập ngân sách</string>
+    <string name="budget_limit">Hạn mức:</string>
+    <string name="spent_so_far">Đã chi:</string>
+    <string name="remaining">Còn lại:</string>
+    <string name="budget_warning">Sắp chạm hạn mức chi tiêu tháng.</string>
+    <string name="budget_exceeded">Đã vượt hạn mức chi tiêu tháng.</string>
+    <string name="stat_by_category">Thống kê chi tiêu theo danh mục</string>
+
+    <string name="settings">Cài đặt</string>
+    <string name="dark_mode">Chế độ tối</string>
+    <string name="change_password">Đổi mật khẩu</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="user_profile">Thông tin tài khoản</string>
+
+    <string name="save">Lưu</string>
+    <string name="cancel">Hủy</string>
+    <string name="delete">Xóa</string>
+    <string name="edit">Sửa</string>
+    <string name="confirm">Xác nhận</string>
+
+    <string name="err_empty_fields">Vui lòng điền đầy đủ thông tin!</string>
+    <string name="err_login_failed">Tên đăng nhập hoặc mật khẩu không chính xác!</string>
+    <string name="err_user_exists">Tên đăng nhập đã tồn tại!</string>
+    <string name="err_pass_mismatch">Mật khẩu xác nhận không khớp!</string>
+    <string name="err_invalid_amount">Số tiền phải lớn hơn 0!</string>
+    <string name="err_wrong_old_pass">Mật khẩu cũ không chính xác!</string>
+    <string name="err_username_spaces">Tên đăng nhập không được chứa khoảng trắng.</string>
+    <string name="err_password_short">Mật khẩu phải có ít nhất 8 ký tự.</string>
+
+    <string name="msg_register_success">Đăng ký tài khoản thành công!</string>
+
+    <string name="all">Tất cả</string>
+    <string name="confirm_delete_trans">Bạn có chắc chắn muốn xóa giao dịch này?</string>
+    <string name="confirm_delete_cat">Bạn có chắc chắn muốn xóa danh mục này?</string>
+    <string name="msg_change_pass_success">Đổi mật khẩu thành công!</string>
+
+    <!-- Figma exported keys -->
+    <string name="tvmenulabel">Đăng xuất</string>
+    <string name="tvcategoryname">Tiền lương</string>
+    <string name="tvcategoryamount">200.000 ₫</string>
+    <string name="tvpercentage">5%</string>
+    <string name="tvcategorytype">[Chi]</string>
+    <string name="tvapptitle">Sổ tay Chi tiêu Cá nhân</string>
+    <string name="tvtagline">Ghi chép hôm nay, an tâm ngày mai.</string>
+    <string name="tvtitle">Đăng nhập</string>
+    <string name="tvfieldlabel">Mật khẩu</string>
+    <string name="tvvalue">••••••••••</string>
+    <string name="tverror">Mật khẩu xác nhận không khớp.</string>
+    <string name="tvremember">Ghi nhớ đăng nhập</string>
+    <string name="tvbuttonlabel">Đăng nhập</string>
+    <string name="tvnoaccount">Chưa có tài khoản?</string>
+    <string name="btnregister">Đăng ký ngay</string>
+    <string name="tvfooter">Dữ liệu cá nhân, luôn trong tầm tay.</string>
+    <string name="tvcurrency">VNĐ</string>
+    <string name="tvtype">Thu</string>
+    <string name="tvperiod">Tháng</string>
+    <string name="tvsummarytitle">Số dư tháng này</string>
+    <string name="tvincomelabel">Tổng thu</string>
+    <string name="tvexpenselabel">Tổng chi</string>
+    <string name="tvbudgettitle">Hạn mức tháng</string>
+    <string name="tvexpenseheading">Chi tiêu theo danh mục</string>
+    <string name="tvgreeting">Chào buổi sáng,</string>
+    <string name="tvsearchhint">Tìm giao dịch...</string>
+    <string name="trang_ch_">Trang chủ</string>
+    <string name="danh_m_c">Danh mục</string>
+    <string name="th_ng_k_">Thống kê</string>
+    <string name="c_i___t">Cài đặt</string>
+    <string name="tvdarkmode">Chế độ tối</string>
+</resources>
